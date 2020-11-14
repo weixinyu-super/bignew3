@@ -1,0 +1,36 @@
+.layui-nav-img {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.userinfo {
+    height: 60px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    line-height: 60px;
+    
+}
+.layui-layout-right .log-text,
+.userinfo .log-text {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 150, 136);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+}
+.layui-nav-item .layui-nav-child dd {
+    padding-left: 13px;
+}
+.iconfont,
+.layui-icon-app {
+    margin-right: 6px;
+}
+.layui-body {
+    /* padding: 13px; */
+    background-color: #ccc;
+}

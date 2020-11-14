@@ -1,0 +1,43 @@
+.layui-card {
+    margin: 16px;
+}
+.layui-card-body {
+    width: 500px;
+}
+.box-top {
+    display: flex;
+    justify-content: space-between;
+}
+.avatar-left {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.avatar-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.avatar-right>div {
+    text-align: center;
+}
+.avatar-img {
+    display: block;
+    background-color: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.w100 {
+    width: 100px;
+    height: 100px;
+}
+.w50 {
+    width: 50px;
+    height: 50px;
+}
+.box-buttom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
